@@ -1,6 +1,9 @@
 name: run generate.py
 
 on:
+  push:
+    branches:
+      - master
   workflow_dispatch:
   schedule:
     - cron: '0 12 * * *'
