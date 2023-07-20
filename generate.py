@@ -1,4 +1,5 @@
 from html import entities
+import shutil
 import feedparser
 from datetime import datetime
 import pathlib
@@ -6,7 +7,7 @@ import urllib.request
 import os
 import re
 
-URL = 'https://moyutime-hub.vercel.app/xiaoyuzhou/podcast/648c31ded10b056a9583cae1'
+URL = os.getenv('RSS_URL')
 if URL == '':
     raise "no rss url."
 
@@ -16,6 +17,8 @@ AUTHOR = ' lfkdsk '
 
 feed = feedparser.parse(URL)
 all_entries = feed['entries']
+image_url = feed['feed']['image']['href']
+print(image_url)
 entries_len = len(all_entries)
 entries = all_entries
 # entries = all_entries[:entries_len - audio_len]
@@ -30,20 +33,26 @@ playlist_items = []
 if not os.path.exists("./source/_posts/"):
     os.makedirs("./source/_posts/")
 
+if image_url:
+    # download new image.
+    urllib.request.urlretrieve(image_url, './new_img.jpg')
+    shutil.copyfile('./new_img.jpg', './img.jpg')
+    shutil.copyfile('./new_img.jpg', './source/image/img.jpg')
+    os.remove('./new_img.jpg')
+
 # Generate All Items.
 for entry in entries:
     title = entry['title'].replace('"', '')
     date = entry['published']
     date = datetime.strptime(date, "%a, %d %b %Y %H:%M:%S GMT")
     date = date.strftime('%Y-%m-%d %H:%M:%S')
-    audio = entry['links'][1]['href']
-    print(audio)
+    audio = entry['links'][0]['href']
     detail = entry['title_detail']
     player = '{% aplayer ' + f'"{title}"' + AUTHOR + ' ' + audio + ' ' + IMG_URL + ' %}'
     summary = entry['summary']
     summary = re.sub('style=\".*?\"', '', summary)
     durnation = entry['itunes_duration']
-    length = 10000
+    length = entry['links'][0]['length']
     playlist_items.append( f'{{"title": "{title}", "author": "{AUTHOR}", "url": "{audio}", "pic": "{IMG_URL}"}}')
     md_builder = \
     f'''---
@@ -58,7 +67,7 @@ type: 'audio/mpeg'
 
 {player}
 
-**[Link]({entry['id']})**
+**[Link]({entry['links'][1]['href']})**
 
 ## Summary
 {summary}
