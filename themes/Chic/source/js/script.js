@@ -1,3 +1,5 @@
+
+
 // declaraction of document.ready() function.
 (function () {
     var ie = !!(window.attachEvent && !window.opera);
@@ -85,3 +87,17 @@ document.ready(
         // ready function.
     }
 );
+
+document.ready(
+    () => {
+        $('.playertime').on('click', function (event) {
+            const players = window.aplayers
+            if (players === null || players.length !== 1) {
+                return
+            }
+            player = players[0]
+            player.play()
+            player.seek(event.target.getAttribute('data-time'))
+        })
+    }
+)

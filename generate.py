@@ -40,6 +40,12 @@ if image_url:
     shutil.copyfile('./new_img.jpg', './source/image/img.jpg')
     os.remove('./new_img.jpg')
 
+def replace_archer(u):
+    if u is None:
+        return u.group()
+    g = sum([int(s) * 60 ** abs(index) for index, s in enumerate(u.group().split(':')[::-1])])
+    return f'{{% playertime {u.group()} {g} %}}'   
+
 # Generate All Items.
 for entry in entries:
     title = entry['title'].replace('"', '')
@@ -51,6 +57,7 @@ for entry in entries:
     player = '{% aplayer ' + f'"{title}"' + AUTHOR + ' ' + audio + ' ' + IMG_URL + ' %}'
     summary = entry['summary']
     summary = re.sub('style=\".*?\"', '', summary)
+    summary = re.sub(r'\d+\:\d+((\:\d+)?)', replace_archer, summary)
     durnation = entry['itunes_duration']
     length = entry['links'][0]['length']
     playlist_items.append( f'{{"title": "{title}", "author": "{AUTHOR}", "url": "{audio}", "pic": "{IMG_URL}"}}')

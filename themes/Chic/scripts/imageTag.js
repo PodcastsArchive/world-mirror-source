@@ -9,3 +9,7 @@ hexo.extend.tag.register('img', ([src, alt = '', title = '', imgClass = '']) => 
                 <p class="image-box-title">${title || alt}</p>
             </div>`;
 });
+
+hexo.extend.tag.register('playertime', ([arch, time]) => {
+    return `<a class="playertime" data-time=${time}> ${arch} </a>`;
+});
