@@ -13,7 +13,7 @@ if URL == '':
 
 ONLINE_PREFIX = 'https://podcastsarchive.github.io/worlds-mirror'
 IMG_URL = 'https://podcastsarchive.github.io/worlds-mirror/image/img.jpg'
-AUTHOR = ' lfkdsk '
+AUTHOR = ' wqj '
 
 feed = feedparser.parse(URL)
 all_entries = feed['entries']
