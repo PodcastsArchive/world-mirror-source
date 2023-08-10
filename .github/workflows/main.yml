@@ -27,16 +27,7 @@ jobs:
         python generate.py
       env:
         RSS_URL: ${{ secrets.RSS_URL }} 
-    - name: Cache node modules
-      uses: actions/cache@v1
-      id: cache
-      with:
-        path: node_modules
-        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-        restore-keys: |
-          ${{ runner.os }}-node-
-    - name: Install Dependencies
-      if: steps.cache.outputs.cache-hit != 'true'
+    - name: Install Dependencies & Build
       run: |
         npm install
         npm ci
