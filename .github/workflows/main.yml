@@ -2,8 +2,7 @@ name: run generate.py
 
 on:
   push:
-    branches:
-      - master
+    branches: [master]
   workflow_dispatch:
   schedule:
     - cron: '0 12 * * *'
@@ -41,11 +40,14 @@ jobs:
       run: |
         npm install
         npm ci
+        npm install hexo-cli -g
+        npm install hexo-deployer-git --save
+        hexo g
     - name: Deploy
-      id: deploy
-      uses: sma11black/hexo-action@v1.0.3
+      uses: peaceiris/actions-gh-pages@v3
       with:
-        deploy_key: ${{ secrets.DEPLOY_KEY }}
-        user_name: ${{ secrets.GIT_USER }}  
-        user_email: ${{ secrets.GIT_EMAIL }}  
+        publish_dir: ./public
+        github_token: ${{ secrets.GH_PAGES_DEPLOY }}
+        user_name: ${{ secrets.GIT_USER }}
+        user_email: ${{ secrets.GIT_EMAIL }}
         commit_msg: ${{ github.event.head_commit.message }}  
