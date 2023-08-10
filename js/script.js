@@ -1,5 +1,3 @@
-
-
 // declaraction of document.ready() function.
 (function () {
     var ie = !!(window.attachEvent && !window.opera);
@@ -100,4 +98,4 @@ document.ready(
             player.seek(event.target.getAttribute('data-time'))
         })
     }
-)
+);
