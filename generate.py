@@ -40,6 +40,8 @@ if image_url:
     shutil.copyfile('./new_img.jpg', './source/image/img.jpg')
     os.remove('./new_img.jpg')
 
+shutil.copyfile('./_config.yml', './themes/Chic/_config.yml')
+
 def replace_archer(u):
     if u is None:
         return u.group()
