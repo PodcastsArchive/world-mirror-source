@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+
+
+
+<title>凌晨3点，北坞公园里吐槽北京公园 | 异市界始解 Worlds-Mirror</title>
+
+
+
+    <link rel="icon" href="/worlds-mirror/./image/img.jpg">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/worlds-mirror/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/worlds-mirror/js/script.js"></script>
+    
+    <script src="/worlds-mirror/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 5.4.2"><link rel="alternate" href="/worlds-mirror/rss2.xml" title="异市界始解 Worlds-Mirror" type="application/rss+xml">
+<link rel="stylesheet" href="/worlds-mirror/assets/css/APlayer.min.css" class="aplayer-style-marker">
+<script src="/worlds-mirror/assets/js/APlayer.min.js" class="aplayer-script-marker"></script>
+</head>
+
+<body>
+    <script>
+        // this function is used to check current theme before page loaded.
+        (() => {
+            const currentTheme = window.localStorage && window.localStorage.getItem('theme') || '';
+            const isDark = currentTheme === 'dark';
+            const pagebody = document.getElementsByTagName('body')[0]
+            if (isDark) {
+                pagebody.classList.add('dark-theme');
+                // mobile
+                document.getElementById("mobile-toggle-theme").innerText = "· Dark"
+            } else {
+                pagebody.classList.remove('dark-theme');
+                // mobile
+                document.getElementById("mobile-toggle-theme").innerText = "· Light"
+            }
+        })();
+    </script>
+
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/worlds-mirror/">异市界始解 Worlds-Mirror</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/worlds-mirror/archives">Posts</a>
+                
+                    <a class="menu-item" href="/worlds-mirror/playlist">PlayList</a>
+                
+                    <a class="menu-item" href="/worlds-mirror/about">About</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/worlds-mirror/">异市界始解 Worlds-Mirror</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/worlds-mirror/archives">Posts</a>
+                
+                    <a class="menu-item" href="/worlds-mirror/playlist">PlayList</a>
+                
+                    <a class="menu-item" href="/worlds-mirror/about">About</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+            <div class="main">
+                <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    var tocbot_timer;
+    var DEPTH_MAX = 6; // 为 6 时展开所有
+    var tocbot_default_config = {
+        tocSelector: '.tocbot-list',
+        contentSelector: '.post-content',
+        headingSelector: 'h1, h2, h3, h4, h5',
+        orderedList: false,
+        scrollSmooth: true,
+        onClick: extend_click,
+    };
+
+    function extend_click() {
+        clearTimeout(tocbot_timer);
+        tocbot_timer = setTimeout(function() {
+            tocbot.refresh(obj_merge(tocbot_default_config, {
+                hasInnerContainers: true
+            }));
+        }, 420); // 这个值是由 tocbot 源码里定义的 scrollSmoothDuration 得来的
+    }
+
+    document.ready(function() {
+        tocbot.init(obj_merge(tocbot_default_config, {
+            collapseDepth: 1
+        }));
+    });
+
+    function expand_toc() {
+        var b = document.querySelector('.tocbot-toc-expand');
+        var expanded = b.getAttribute('data-expanded');
+        expanded ? b.removeAttribute('data-expanded') : b.setAttribute('data-expanded', true);
+        tocbot.refresh(obj_merge(tocbot_default_config, {
+            collapseDepth: expanded ? 1 : DEPTH_MAX
+        }));
+        b.innerText = expanded ? 'Expand all' : 'Collapse all';
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+    function obj_merge(target, source) {
+        for (var item in source) {
+            if (source.hasOwnProperty(item)) {
+                target[item] = source[item];
+            }
+        }
+        return target;
+    }
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">凌晨3点，北坞公园里吐槽北京公园</h1>
+            
+                <div class="post-meta">
+                    
+
+                    
+                        <span class="post-time">
+                        Date: <a href="#">2023-07-23&nbsp;&nbsp;08:19:43</a>
+                        </span>
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            
+        <div id="aplayer-vdAvtdtR" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content"></pre>
+        </div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-vdAvtdtR"),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: "凌晨3点，北坞公园里吐槽北京公园",
+              author: "wqj",
+              url: "https://dts-api.xiaoyuzhoufm.com/track/648c31ded10b056a9583cae1/64bce2a0d0844ea8124debe1/media.xyzcdn.net/luyxvVEhzS4Y_qLmr_jHuRy4-ci_.m4a?from=feedparser/6.0.10%20+https://github.com/kurtmckee/feedparser/",
+              pic: "https://podcastsarchive.github.io/worlds-mirror/image/img.jpg",
+              lrc: ""
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script>
+
+<p><strong><a target="_blank" rel="noopener" href="https://www.xiaoyuzhoufm.com/episode/64bce2a0d0844ea8124debe1?utm_source=rss">Link</a></strong></p>
+<h2 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h2><p>这一期是我还在北京的时候，六月的最后一天，距离离开北京还有一周的时间录的。</p><p>对于彼时还身处北京念书的我来说，北京的各大公园就是我的一个“异市界”，想发现“老北京”的生活状态。这半年，我常在里面看大爷大妈们跳交际舞、做操、踢键子、打乒乓、打快板、抖空竹、钓鱼，眼睛学会了很多传统技能。也不单是看，曾追逐落日到圆明园看芍药，然后躺着吹风睡觉被锁门、曾半夜在难得二十四小时开放的庆丰公园里骑车又弃车翻墙、曾在公寓附近的蓝靛厂公园捡篮球场里留下的篮球投篮、曾赶在闭园前在西郊的植物园夜探梁任公的墓，以及在此刻的北坞公园录播客。</p><p>这一期的嘉宾@lfkdsk，小丰是一位历史、民俗爱好者，擅长发现周边地域的“历史性”，相信能够极大程度满足大家对北京、上海甚至日本一些公园的“信息”需求。</p><p>以下是一些随机的节点，请随意click～</p><p><a class="playertime" data-time=50> 00:50 </a> 致力于用“世界迷雾”app画地图（fog of world）</p><p><a class="playertime" data-time=132> 02:12 </a> 国内公园设计像赫鲁晓夫楼之于普通建筑，死板</p><p><a class="playertime" data-time=253> 04:13 </a> 被英国人问中英公园差别，懵了</p><p><a class="playertime" data-time=383> 06:23 </a> 公园是大自然或山海湖泊的平替</p><p><a class="playertime" data-time=410> 06:50 </a> 在英国下了班就去公园躺</p><p><a class="playertime" data-time=487> 08:07 </a> 力图凸显现代式的公园是比较枯燥的</p><p><a class="playertime" data-time=594> 09:54 </a> 日本伊豆新井是园林酒店</p><p><a class="playertime" data-time=649> 10:49 </a> 厌恶北京所有的“保安”</p><p><a class="playertime" data-time=712> 11:52 </a> 社区公园为什么是有边界的</p><p><a class="playertime" data-time=796> 13:16 </a> 很多大学的设计也像一个公园</p><p><a class="playertime" data-time=887> 14:47 </a> 把人管起来是不想成年人能为自己负责</p><p><a class="playertime" data-time=949> 15:49 </a> 北京能让人保持愤怒</p><p><a class="playertime" data-time=1106> 18:26 </a> 朝阳公园的落日飞车太幼稚了</p><p><a class="playertime" data-time=1251> 20:51 </a> 万寿寺边上的古刹沦落为残垣断壁</p><p><a class="playertime" data-time=1312> 21:52 </a> 诉诸人数是一块遮羞布</p><p><a class="playertime" data-time=1459> 24:19 </a> 北京厕所没有纸也是怕人顺个一卷两卷</p><p><a class="playertime" data-time=1523> 25:23 </a> 日本大文豪川端康成和芥川龙之介都住过的伊豆新井酒店</p><p><a class="playertime" data-time=1606> 26:46 </a> 普通公园的设计者相比古典园林设计者是“泛泛之辈”</p><p><a class="playertime" data-time=1701> 28:21 </a> 北京第一个现代公园：中山公园，来今雨轩</p><p><a class="playertime" data-time=1830> 30:30 </a> 发现生活的“历史性”</p><p><a class="playertime" data-time=1905> 31:45 </a> 中关村食宝街中的慈禧水道</p><p><a class="playertime" data-time=2035> 33:55 </a> 上海龙华公园</p><p><a class="playertime" data-time=2059> 34:19 </a> 上海北外滩新亚酒店</p><p><a class="playertime" data-time=2251> 37:31 </a> 为什么国内公园老年人居多</p><p><a class="playertime" data-time=2471> 41:11 </a> 北京不缺少好的公园，只是不属于年轻人</p><p><a class="playertime" data-time=2624> 43:44 </a> Hampstead Heath（汉普斯特德荒野）</p><p><a class="playertime" data-time=2683> 44:43 </a> 中英公园年龄分布差异</p><p><a class="playertime" data-time=2770> 46:10 </a> 北京：老头夜钓、太极、空竹</p><p><a class="playertime" data-time=3019> 50:19 </a> 北京哪个公园让我们印象深刻</p><p><a class="playertime" data-time=3036> 50:36 </a> 在通惠河公园翻墙</p><p><a class="playertime" data-time=3326> 55:26 </a> 半夜十二点去梁启超墓园</p><p><a class="playertime" data-time=3489> 58:09 </a> 未名湖畔的公园体验</p><p><a class="playertime" data-time=3587> 59:47 </a> 元大都遗址公园</p><p><a class="playertime" data-time=3951> 1:05:51 </a> 陶然亭公园和鬼吹灯</p><p><a class="playertime" data-time=4266> 1:11:06 </a> &nbsp;不是拒绝互动，只是怕麻烦</p><p>开头：Battle Of Symphony</p><p>结尾：One Night in Beijing</p>
+    
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                    <p class="copyright-item">
+                        <span>Author:</span>
+                        <span></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Permalink:</span>
+                        <span><a href="https://podcastsarchive.github.io/worlds-mirror/2023/07/23/vol2/">https://podcastsarchive.github.io/worlds-mirror/2023/07/23/vol2/</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>License:</span>
+                        <span>Copyright (c) 2022 <a target="_blank" rel="noopener" href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a> LICENSE</span>
+                    </p>
+                
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">back</a>
+                <span>· </span>
+                <a href="/worlds-mirror/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+            
+            <a class="next" rel="next" href="/worlds-mirror/2023/07/17/vol1/">高考8年后我们4个小镇青年的现状想法</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+            </div>
+            <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>©  | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/PodcastsArchive" target="_blank">PodcastsArchive</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a></span>
+    </div>
+</footer>
+
+    </div>
+</body>
+
+</html>
