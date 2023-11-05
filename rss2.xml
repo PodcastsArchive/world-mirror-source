@@ -21,16 +21,53 @@
     <itunes:explicit>no</itunes:explicit>
     
     <item>
-      <title>五角场天台上的少女之夜</title>
+      <title>从大学时青旅偶遇，到读研工作结婚</title>
       <description>
         <content type="html">
             &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/worlds-mirror/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/worlds-mirror/assets/js/APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;
-        &lt;div id=&quot;aplayer-PdxtIoQF&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
+        &lt;div id=&quot;aplayer-MGYhyuLw&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
             &lt;pre class=&quot;aplayer-lrc-content&quot;&gt;&lt;/pre&gt;
         &lt;/div&gt;
         &lt;script&gt;
           var ap = new APlayer({
-            element: document.getElementById(&quot;aplayer-PdxtIoQF&quot;),
+            element: document.getElementById(&quot;aplayer-MGYhyuLw&quot;),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: &quot;从大学时青旅偶遇，到读研工作结婚&quot;,
+              author: &quot;wqj&quot;,
+              url: &quot;https://dts-api.xiaoyuzhoufm.com/track/648c31ded10b056a9583cae1/654687dcc248305a89f2d5f1/media.xyzcdn.net/lrEZXLcyZ6nV_JOrVUD79Gm8PdtE.m4a?from=feedparser/6.0.10%20+https://github.com/kurtmckee/feedparser/&quot;,
+              pic: &quot;https://podcastsarchive.github.io/worlds-mirror/image/img.jpg&quot;,
+              lrc: &quot;&quot;
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        &lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.xiaoyuzhoufm.com/episode/654687dcc248305a89f2d5f1?utm_source=rss&quot;&gt;Link&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Summary&quot;&gt;&lt;a href=&quot;#Summary&quot; class=&quot;headerlink&quot; title=&quot;Summary&quot;&gt;&lt;/a&gt;Summary&lt;/h2&gt;&lt;p&gt;九月的时候我和郭子在他的古镇见面了，十月的时候琪琪和我线上打了电话。后来某一天不经意看到是郭子的生日，突然想起我们仨自从郭子本科毕业典礼后再也没有一起聚过了，当天就约了他们跨国会议（ps.大家都没打开摄像头，某一位还是微信小程序用户）。&lt;/p&gt;&lt;p&gt;郭子和琪琪是我在大二在重庆青旅当义工时候认识的，也许是因为家都在苏州，学校都在南京，所以后来一直有联系。他们本科专业分别是通信工程和软件，目前都在科技公司工作。另外，郭子是我们中唯一有老婆也有狗的人，从专业摄影师变成了村头摄影带师，贡献了很多有意思的内容。而琪琪，则带来了麦田里找最高麦子的理论。感谢二位捏！&lt;/p&gt;&lt;p&gt;我们此次聊天围绕“旅游”“求学”“工作”和“结婚”，下面是一些随机的shownotes：&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;playertime&quot; data-time=218&gt; 03:38 &lt;/a&gt; “这你都说得出口的呀！”为了和异性朋友旅游分手&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;playertime&quot; data-time=296&gt; 04:56 &lt;/a&gt; 异性结伴出门的算术问题，一女两男？两女两男？&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;playertime&quot; data-time=456&gt; 07:36 &lt;/a&gt; “大学纯属被学长骗进来”&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;playertime&quot; data-time=497&gt; 08:17 &lt;/a&gt; “大学我一直觉得计算机才是未来，只是没懂金融的含金量”&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;playertime&quot; data-time=659&gt; 10:59 &lt;/a&gt; “我一直都是奔着AI去的”&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;playertime&quot; data-time=693&gt; 11:33 &lt;/a&gt; “本科导师学核物理最后是一名电路设计老师”&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;playertime&quot; data-time=832&gt; 13:52 &lt;/a&gt; “大学四年我最后都不知道怎么做一个收音机”&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;playertime&quot; data-time=1000&gt; 16:40 &lt;/a&gt; 毕业典礼拒绝新华社邀请“我志不在此啊”&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;playertime&quot; data-time=1085&gt; 18:05 &lt;/a&gt; “你怎么各个大学乱跑！”&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;playertime&quot; data-time=1330&gt; 22:10 &lt;/a&gt; “工作后旅游更有选择性一点”&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;playertime&quot; data-time=1740&gt; 29:00 &lt;/a&gt; 读书时师生关系和工作时上下级关系&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;playertime&quot; data-time=1920&gt; 32:00 &lt;/a&gt; “跳槽后发现没有什么是永久的，我们都是浪花中的一粒沙”&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;playertime&quot; data-time=2040&gt; 34:00 &lt;/a&gt; 有没有和社会脱节的感觉？多数少数其实可以切换。&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;playertime&quot; data-time=2160&gt; 36:00 &lt;/a&gt; “攒够多少钱可以退休？”&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;playertime&quot; data-time=2280&gt; 38:00 &lt;/a&gt; “只要不买房买车问题都不大”&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;playertime&quot; data-time=2480&gt; 41:20 &lt;/a&gt; “想到结婚后会比结婚后开心一点就结婚了”&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;playertime&quot; data-time=2580&gt; 43:00 &lt;/a&gt; 求偶和找麦子，1/3训练集-观察，2/3测验集-选择&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;playertime&quot; data-time=2875&gt; 47:55 &lt;/a&gt; “两个人谈恋爱是分享快乐，结婚是面对现实”&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;playertime&quot; data-time=3120&gt; 52:00 &lt;/a&gt; “社会关系：家庭、朋友和公司”&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;playertime&quot; data-time=3180&gt; 53:00 &lt;/a&gt; “工作是实现自我价值的一种方式”&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;playertime&quot; data-time=3360&gt; 56:00 &lt;/a&gt; 寻找下半生居住地也可以用找麦子的策略&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;playertime&quot; data-time=3661&gt; 1:01:01 &lt;/a&gt; 有没有做过什么浪漫的事&lt;/p&gt;
+    
+        </content>
+      </description>
+      <pubDate>Sat, 04 Nov 2023 18:05:15 GMT</pubDate>
+      <enclosure url="https://dts-api.xiaoyuzhoufm.com/track/648c31ded10b056a9583cae1/654687dcc248305a89f2d5f1/media.xyzcdn.net/lrEZXLcyZ6nV_JOrVUD79Gm8PdtE.m4a?from=feedparser/6.0.10%20+https://github.com/kurtmckee/feedparser/" type="audio/mpeg" length="54654093"/>
+      <itunes:duration>01:04:46</itunes:duration>
+      <guid>https://podcastsarchive.github.io/worlds-mirror/2023/11/04/vol4/</guid>
+    </item>
+    
+    <item>
+      <title>五角场天台上的少女之夜</title>
+      <description>
+        <content type="html">
+            &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/worlds-mirror/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/worlds-mirror/assets/js/APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;
+        &lt;div id=&quot;aplayer-CfBUlUXF&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
+            &lt;pre class=&quot;aplayer-lrc-content&quot;&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+        &lt;script&gt;
+          var ap = new APlayer({
+            element: document.getElementById(&quot;aplayer-CfBUlUXF&quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -62,12 +99,12 @@
       <description>
         <content type="html">
             &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/worlds-mirror/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/worlds-mirror/assets/js/APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;
-        &lt;div id=&quot;aplayer-iKwXgYVR&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
+        &lt;div id=&quot;aplayer-gJAFRMqC&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
             &lt;pre class=&quot;aplayer-lrc-content&quot;&gt;&lt;/pre&gt;
         &lt;/div&gt;
         &lt;script&gt;
           var ap = new APlayer({
-            element: document.getElementById(&quot;aplayer-iKwXgYVR&quot;),
+            element: document.getElementById(&quot;aplayer-gJAFRMqC&quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -99,12 +136,12 @@
       <description>
         <content type="html">
             &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/worlds-mirror/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/worlds-mirror/assets/js/APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;
-        &lt;div id=&quot;aplayer-PVxLErYz&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
+        &lt;div id=&quot;aplayer-ebQlYIpu&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
             &lt;pre class=&quot;aplayer-lrc-content&quot;&gt;&lt;/pre&gt;
         &lt;/div&gt;
         &lt;script&gt;
           var ap = new APlayer({
-            element: document.getElementById(&quot;aplayer-PVxLErYz&quot;),
+            element: document.getElementById(&quot;aplayer-ebQlYIpu&quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
