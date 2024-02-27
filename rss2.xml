@@ -25,19 +25,19 @@
       <description>
         <content type="html">
             &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/worlds-mirror/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/worlds-mirror/assets/js/APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;
-        &lt;div id=&quot;aplayer-PavJVTkA&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
+        &lt;div id=&quot;aplayer-dSvmtyiS&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
             &lt;pre class=&quot;aplayer-lrc-content&quot;&gt;&lt;/pre&gt;
         &lt;/div&gt;
         &lt;script&gt;
           var ap = new APlayer({
-            element: document.getElementById(&quot;aplayer-PavJVTkA&quot;),
+            element: document.getElementById(&quot;aplayer-dSvmtyiS&quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
             music: {
               title: &quot;从大学时青旅偶遇，到读研工作结婚&quot;,
               author: &quot;wqj&quot;,
-              url: &quot;https://dts-api.xiaoyuzhoufm.com/track/648c31ded10b056a9583cae1/654687dcc248305a89f2d5f1/media.xyzcdn.net/lrEZXLcyZ6nV_JOrVUD79Gm8PdtE.m4a?from=feedparser/6.0.10%20+https://github.com/kurtmckee/feedparser/&quot;,
+              url: &quot;https://dts-api.xiaoyuzhoufm.com/track/648c31ded10b056a9583cae1/654687dcc248305a89f2d5f1/media.xyzcdn.net/lrEZXLcyZ6nV_JOrVUD79Gm8PdtE.m4a&quot;,
               pic: &quot;https://podcastsarchive.github.io/worlds-mirror/image/img.jpg&quot;,
               lrc: &quot;&quot;
             }
@@ -52,7 +52,7 @@
         </content>
       </description>
       <pubDate>Sat, 04 Nov 2023 18:05:15 GMT</pubDate>
-      <enclosure url="https://dts-api.xiaoyuzhoufm.com/track/648c31ded10b056a9583cae1/654687dcc248305a89f2d5f1/media.xyzcdn.net/lrEZXLcyZ6nV_JOrVUD79Gm8PdtE.m4a?from=feedparser/6.0.10%20+https://github.com/kurtmckee/feedparser/" type="audio/mpeg" length="54654093"/>
+      <enclosure url="https://dts-api.xiaoyuzhoufm.com/track/648c31ded10b056a9583cae1/654687dcc248305a89f2d5f1/media.xyzcdn.net/lrEZXLcyZ6nV_JOrVUD79Gm8PdtE.m4a" type="audio/mpeg" length="54654093"/>
       <itunes:duration>01:04:46</itunes:duration>
       <guid>https://podcastsarchive.github.io/worlds-mirror/2023/11/04/vol4/</guid>
     </item>
@@ -62,19 +62,19 @@
       <description>
         <content type="html">
             &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/worlds-mirror/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/worlds-mirror/assets/js/APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;
-        &lt;div id=&quot;aplayer-sFPdkYkN&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
+        &lt;div id=&quot;aplayer-lwxXPtjW&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
             &lt;pre class=&quot;aplayer-lrc-content&quot;&gt;&lt;/pre&gt;
         &lt;/div&gt;
         &lt;script&gt;
           var ap = new APlayer({
-            element: document.getElementById(&quot;aplayer-sFPdkYkN&quot;),
+            element: document.getElementById(&quot;aplayer-lwxXPtjW&quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
             music: {
               title: &quot;五角场天台上的少女之夜&quot;,
               author: &quot;wqj&quot;,
-              url: &quot;https://dts-api.xiaoyuzhoufm.com/track/648c31ded10b056a9583cae1/64f9ff37e490c5dee5a2e360/media.xyzcdn.net/llnBSj05_nDSi4LpcevofxrRpilz.m4a?from=feedparser/6.0.10%20+https://github.com/kurtmckee/feedparser/&quot;,
+              url: &quot;https://dts-api.xiaoyuzhoufm.com/track/648c31ded10b056a9583cae1/64f9ff37e490c5dee5a2e360/media.xyzcdn.net/llnBSj05_nDSi4LpcevofxrRpilz.m4a&quot;,
               pic: &quot;https://podcastsarchive.github.io/worlds-mirror/image/img.jpg&quot;,
               lrc: &quot;&quot;
             }
@@ -89,7 +89,7 @@
         </content>
       </description>
       <pubDate>Thu, 07 Sep 2023 16:49:58 GMT</pubDate>
-      <enclosure url="https://dts-api.xiaoyuzhoufm.com/track/648c31ded10b056a9583cae1/64f9ff37e490c5dee5a2e360/media.xyzcdn.net/llnBSj05_nDSi4LpcevofxrRpilz.m4a?from=feedparser/6.0.10%20+https://github.com/kurtmckee/feedparser/" type="audio/mpeg" length="47208360"/>
+      <enclosure url="https://dts-api.xiaoyuzhoufm.com/track/648c31ded10b056a9583cae1/64f9ff37e490c5dee5a2e360/media.xyzcdn.net/llnBSj05_nDSi4LpcevofxrRpilz.m4a" type="audio/mpeg" length="47208360"/>
       <itunes:duration>00:48:18</itunes:duration>
       <guid>https://podcastsarchive.github.io/worlds-mirror/2023/09/07/vol3/</guid>
     </item>
@@ -99,19 +99,19 @@
       <description>
         <content type="html">
             &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/worlds-mirror/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/worlds-mirror/assets/js/APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;
-        &lt;div id=&quot;aplayer-MYkMdHHI&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
+        &lt;div id=&quot;aplayer-QvfIMKID&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
             &lt;pre class=&quot;aplayer-lrc-content&quot;&gt;&lt;/pre&gt;
         &lt;/div&gt;
         &lt;script&gt;
           var ap = new APlayer({
-            element: document.getElementById(&quot;aplayer-MYkMdHHI&quot;),
+            element: document.getElementById(&quot;aplayer-QvfIMKID&quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
             music: {
               title: &quot;凌晨3点，北坞公园里吐槽北京公园&quot;,
               author: &quot;wqj&quot;,
-              url: &quot;https://dts-api.xiaoyuzhoufm.com/track/648c31ded10b056a9583cae1/64bce2a0d0844ea8124debe1/media.xyzcdn.net/luyxvVEhzS4Y_qLmr_jHuRy4-ci_.m4a?from=feedparser/6.0.10%20+https://github.com/kurtmckee/feedparser/&quot;,
+              url: &quot;https://dts-api.xiaoyuzhoufm.com/track/648c31ded10b056a9583cae1/64bce2a0d0844ea8124debe1/media.xyzcdn.net/luyxvVEhzS4Y_qLmr_jHuRy4-ci_.m4a&quot;,
               pic: &quot;https://podcastsarchive.github.io/worlds-mirror/image/img.jpg&quot;,
               lrc: &quot;&quot;
             }
@@ -126,7 +126,7 @@
         </content>
       </description>
       <pubDate>Sun, 23 Jul 2023 08:19:43 GMT</pubDate>
-      <enclosure url="https://dts-api.xiaoyuzhoufm.com/track/648c31ded10b056a9583cae1/64bce2a0d0844ea8124debe1/media.xyzcdn.net/luyxvVEhzS4Y_qLmr_jHuRy4-ci_.m4a?from=feedparser/6.0.10%20+https://github.com/kurtmckee/feedparser/" type="audio/mpeg" length="75202313"/>
+      <enclosure url="https://dts-api.xiaoyuzhoufm.com/track/648c31ded10b056a9583cae1/64bce2a0d0844ea8124debe1/media.xyzcdn.net/luyxvVEhzS4Y_qLmr_jHuRy4-ci_.m4a" type="audio/mpeg" length="75202313"/>
       <itunes:duration>01:16:40</itunes:duration>
       <guid>https://podcastsarchive.github.io/worlds-mirror/2023/07/23/vol2/</guid>
     </item>
@@ -136,19 +136,19 @@
       <description>
         <content type="html">
             &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/worlds-mirror/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/worlds-mirror/assets/js/APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;
-        &lt;div id=&quot;aplayer-oCXCePCi&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
+        &lt;div id=&quot;aplayer-wycoUjzy&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
             &lt;pre class=&quot;aplayer-lrc-content&quot;&gt;&lt;/pre&gt;
         &lt;/div&gt;
         &lt;script&gt;
           var ap = new APlayer({
-            element: document.getElementById(&quot;aplayer-oCXCePCi&quot;),
+            element: document.getElementById(&quot;aplayer-wycoUjzy&quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
             music: {
               title: &quot;高考8年后我们4个小镇青年的现状想法&quot;,
               author: &quot;wqj&quot;,
-              url: &quot;https://dts-api.xiaoyuzhoufm.com/track/648c31ded10b056a9583cae1/64b569b832fb5cf4c9385df0/media.xyzcdn.net/lu65Yx9PeVYkTP8P9OTZhvc4N6eZ.m4a?from=feedparser/6.0.10%20+https://github.com/kurtmckee/feedparser/&quot;,
+              url: &quot;https://dts-api.xiaoyuzhoufm.com/track/648c31ded10b056a9583cae1/64b569b832fb5cf4c9385df0/media.xyzcdn.net/lu65Yx9PeVYkTP8P9OTZhvc4N6eZ.m4a&quot;,
               pic: &quot;https://podcastsarchive.github.io/worlds-mirror/image/img.jpg&quot;,
               lrc: &quot;&quot;
             }
@@ -163,7 +163,7 @@
         </content>
       </description>
       <pubDate>Mon, 17 Jul 2023 16:17:59 GMT</pubDate>
-      <enclosure url="https://dts-api.xiaoyuzhoufm.com/track/648c31ded10b056a9583cae1/64b569b832fb5cf4c9385df0/media.xyzcdn.net/lu65Yx9PeVYkTP8P9OTZhvc4N6eZ.m4a?from=feedparser/6.0.10%20+https://github.com/kurtmckee/feedparser/" type="audio/mpeg" length="77553317"/>
+      <enclosure url="https://dts-api.xiaoyuzhoufm.com/track/648c31ded10b056a9583cae1/64b569b832fb5cf4c9385df0/media.xyzcdn.net/lu65Yx9PeVYkTP8P9OTZhvc4N6eZ.m4a" type="audio/mpeg" length="77553317"/>
       <itunes:duration>01:19:23</itunes:duration>
       <guid>https://podcastsarchive.github.io/worlds-mirror/2023/07/17/vol1/</guid>
     </item>
